@@ -4,7 +4,7 @@ import tseslint from 'typescript-eslint'
 import pluginVue from 'eslint-plugin-vue'
 import pluginPrettierRecommendedConfigs from 'eslint-plugin-prettier/recommended'
 import unocss from '@unocss/eslint-config/flat'
-import autoImport from './.eslintrc-auto-import.json' assert { type: 'json' }
+import autoImport from './.eslintrc-auto-import.json' with { type: 'json' }
 
 /** @type {import('eslint').Linter.Config[]} */
 export default [
